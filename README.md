@@ -1,0 +1,1 @@
+There are several mazes in /layout and Pacman's aim in all of them is to find the shortest path to the goal cell. This problem is solved using basid AI algorithms including as A*, DFS, BFS, and UCS. Moreover, a comparesion is made between them based on the cost of the path and the required time.

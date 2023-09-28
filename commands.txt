@@ -1,0 +1,9 @@
+python pacman.py -l maze -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
+python pacman.py -l maze -p SearchAgent -a fn=ucs
+python pacman.py -l maze -p SearchAgent -a fn=bfs
+python pacman.py -l maze -p SearchAgent -a fn=dfs
+python pacman.py -l maze_with_ghost -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
+python pacman.py -l maze_with_ghost -p SearchAgent -a fn=ucs
+python pacman.py -l maze_with_ghost -p SearchAgent -a fn=bfs
+python pacman.py -l maze_with_ghost -p SearchAgent -a fn=dfs
+
